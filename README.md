@@ -58,7 +58,8 @@ Embrace collaboration with coding hands.
 - https://debezium.io/documentation/reference/stable/connectors/postgresql.html
 
 
-#### Based on [Gabriel Bueno]([https://github.com/purnasth](https://github.com/GabrielBueno200) CDC Demo 
+#### Based on [Gabriel Bueno](https://github.com/GabrielBueno200) CDC Demo 
+
 - https://github.com/GabrielBueno200/DemoCDCWithRabbitMQAndNetCore/tree/main
 
 Thank you Man! 
