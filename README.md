@@ -51,7 +51,7 @@ Embrace collaboration with coding hands.
 ## Debezium connector for PostgreSQL
 - https://debezium.io/documentation/reference/stable/connectors/postgresql.html
 
-## Based on https://github.com/GabrielBueno200 CDC Demo
+## Based on @gabrielbueno200 CDC Demo
 - https://github.com/GabrielBueno200/DemoCDCWithRabbitMQAndNetCore/tree/main
 
 Thank you Man! 
