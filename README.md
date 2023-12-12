@@ -8,6 +8,8 @@ Here, you'll discover setup files, docker-compose configurations, and additional
 
 ## Getting Started
 
+<img width="696" alt="Screenshot 2023-12-11 at 22 00 43" src="https://github.com/edsonma/demo_cdc_rabbitmq-debezium-postgresql/assets/711579/6cce02f5-097a-4222-9dc6-cdad6d10be07">
+
 ### Technologies
 - What technologies will you find here?
   - postgresql sql database
@@ -18,16 +20,18 @@ Here, you'll discover setup files, docker-compose configurations, and additional
 ### Requirements
 
 - you must have docker engine installed
-  Here's an article introducing container tools for your local machine <linkit>
-  Complete with installation instructions here <linkit>.
+  Here's an article introducing container tools for your local machine.
+  [Beyond Docker: Emulation, Orchestration and Virtualization in Apple Silicon](https://oramind.com/using-docker-kubernetes-efficiently-on-macos/)
 
-- Docker Compose <linkit> is used as a convenient method to effortlessly bootstrap this application.  
+  I am Mac user, so I like [OrbStack](https://orbstack.dev/download)
+
+- [Docker Compose](https://docs.docker.com/compose/) is used as a convenient method to effortlessly bootstrap this application.  
 
 ### Baby steps
 
 - Clone this repo: 
 ```fish
-  git clone <link>
+  git clone [git@github.com:edsonma/demo_cdc_rabbitmq-debezium-postgresql.git](git@github.com:edsonma/demo_cdc_rabbitmq-debezium-postgresql.git)
 ```
 
 - Walk to cloned directory:
@@ -35,7 +39,7 @@ Here, you'll discover setup files, docker-compose configurations, and additional
   cd cdc_demo-rabbitmq-debezium-postgresql
 ```
 
-- LGTM (use docker-compose)
+- [LGTM](https://www.urbandictionary.com/define.php?term=Let%27s%20Get%20This%20Money) (use docker-compose)
 
 ```fish
 docker compose up -d
@@ -48,10 +52,13 @@ Embrace collaboration with coding hands.
 
 ### References
 
-## Debezium connector for PostgreSQL
+#### PostgreSQL to RabbitMQ CDC using Debezium Server
+- https://blog.devops.dev/postgresql-to-rabbitmq-cdc-using-debezium-server-5c7c70de8afd
+#### Debezium connector for PostgreSQL
 - https://debezium.io/documentation/reference/stable/connectors/postgresql.html
 
-## Based on @gabrielbueno200 CDC Demo
+
+#### Based on [Gabriel Bueno]([https://github.com/purnasth](https://github.com/GabrielBueno200) CDC Demo 
 - https://github.com/GabrielBueno200/DemoCDCWithRabbitMQAndNetCore/tree/main
 
 Thank you Man! 
