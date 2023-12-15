@@ -63,4 +63,13 @@ Embrace collaboration with coding hands.
 
 - https://github.com/GabrielBueno200/DemoCDCWithRabbitMQAndNetCore/tree/main
 
+--- 
 Thank you Man! 
+
+Prosit!
+
+.~~~~.
+i====i_
+|cccc|_)
+|cccc|
+`-==-'
