@@ -37,7 +37,7 @@ Here, you'll discover setup files, docker-compose configurations, and additional
 
 - Walk to cloned directory:
 ```fish
-  cd cdc_demo-postgresql-debezium-
+  cd demo_cdc_postgresql-debezium-rabbitmq-kibaetl
 ```
 
 - [LGTM](https://www.urbandictionary.com/define.php?term=Let%27s%20Get%20This%20Money) (use docker-compose)
