@@ -14,7 +14,8 @@ Here, you'll discover setup files, docker-compose configurations, and additional
 - What technologies will you find here?
   - postgresql sql database
   - debezium CDC platform
-  - rabbitmq message broker
+  - rabbitmq Message broker
+  - kibaETL (Extract Transform and Load)
   
 
 ### Requirements
@@ -36,7 +37,7 @@ Here, you'll discover setup files, docker-compose configurations, and additional
 
 - Walk to cloned directory:
 ```fish
-  cd cdc_demo-rabbitmq-debezium-postgresql
+  cd cdc_demo-postgresql-debezium-
 ```
 
 - [LGTM](https://www.urbandictionary.com/define.php?term=Let%27s%20Get%20This%20Money) (use docker-compose)
