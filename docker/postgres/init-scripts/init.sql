@@ -1,4 +1,6 @@
-CREATE DATABASE source_dev;
+CREATE DATABASE source_db;
+
+GRANT ALL PRIVILEGES ON DATABASE source_db TO pguser;
 
 CREATE TABLE IF NOT EXISTS test (
     id SERIAL,
