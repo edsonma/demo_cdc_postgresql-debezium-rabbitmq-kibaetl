@@ -4,7 +4,6 @@ volumes:
   postgresData:
   rabbitmqData:
   rabbitmqLogData:
-
 services:
   rabbitmq:
     image: rabbitmq:3.11.9-management-alpine
@@ -20,7 +19,13 @@ services:
     ports:
       - '5672:5672'
       - '15672:15672'
-  
+    networks:
+      - cdc_network
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 30s
+      timeout: 30s
+      retries: 3     
   postgres:
     image: postgres:latest
     command:
@@ -53,7 +58,8 @@ services:
       - POSTGRES_USER=pguser
       - POSTGRES_PASSWORD=pguser123
       - POSTGRES_DB=source_db
-
+    networks:
+      - cdc_network
   debezium-server:
     image: quay.io/debezium/server:latest
     ports:
@@ -64,6 +70,8 @@ services:
     environment:
       - database.ssl.mode=disable
       - DEBEZIUM_TRUSTED_CERTIFICATES=trustServerCertificate=true
-    depends_on:
-      - postgres
-      - rabbitmq
+    networks:
+      - cdc_network
+networks:
+  cdc_network:
+    driver: bridge
