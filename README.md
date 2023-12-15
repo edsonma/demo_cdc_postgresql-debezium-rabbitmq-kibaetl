@@ -8,7 +8,8 @@ Here, you'll discover setup files, docker-compose configurations, and additional
 
 ## Getting Started
 
-<img width="696" alt="Screenshot 2023-12-11 at 22 00 43" src="https://github.com/edsonma/demo_cdc_rabbitmq-debezium-postgresql/assets/711579/6cce02f5-097a-4222-9dc6-cdad6d10be07">
+<img width="706" alt="Screenshot 2023-12-15 at 00 37 48" src="https://github.com/edsonma/demo_cdc_postgresql-debezium-rabbitmq-kibaetl/assets/711579/f80d246d-63e8-42a1-83a5-39f46b7e85ba">
+
 
 ### Technologies
 - What technologies will you find here?
