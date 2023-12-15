@@ -1,0 +1,15 @@
+{
+  "before_data": {
+    "id": 7,
+    "name": "Anderson Silvaasd",
+    "age": 45,
+    "city": "Curitiba"
+  },
+  "after_data": {
+    "id": 7,
+    "name": "Anderson Silva",
+    "age": 45,
+    "city": "Curitiba"
+  },
+  "source_op": "u"
+}

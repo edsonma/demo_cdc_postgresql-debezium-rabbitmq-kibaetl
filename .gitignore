@@ -10,6 +10,7 @@
 /docker/*.pid
 /docker/*.log
 /docker/*.env
+/docker/debezium/data/offsets.dat
 
 # Ignore RSpec generated files.
 /spec/tmp
