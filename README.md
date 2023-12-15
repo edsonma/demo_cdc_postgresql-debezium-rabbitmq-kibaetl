@@ -32,7 +32,7 @@ Here, you'll discover setup files, docker-compose configurations, and additional
 
 - Clone this repo: 
 ```fish
-  git clone [git@github.com:edsonma/demo_cdc_rabbitmq-debezium-postgresql.git](git@github.com:edsonma/demo_cdc_rabbitmq-debezium-postgresql.git)
+  git clone [git@github.com:edsonma/demo_cdc_postgresql-debezium-rabbitmq-kibaetl.git](git@github.com:edsonma/demo_cdc_postgresql-debezium-rabbitmq-kibaetl.git)
 ```
 
 - Walk to cloned directory:
