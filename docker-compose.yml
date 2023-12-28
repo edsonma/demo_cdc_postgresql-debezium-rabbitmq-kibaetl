@@ -61,12 +61,14 @@ services:
     networks:
       - cdc_network
   debezium-server:
-    image: quay.io/debezium/server:latest
+    build:
+      context: .
+      dockerfile: ./docker/debezium/Dockerfile
     ports:
-      - 8080:8080
+      - "8080:8080"
     volumes:
-      - ./docker/debezium/conf:/debezium/conf
-      - ./docker/debezium/data:/debezium/data
+      - ${PWD}/docker/debezium/conf:/debezium/conf
+      - ${PWD}/debezium/data:/debezium/data
     environment:
       - database.ssl.mode=disable
       - DEBEZIUM_TRUSTED_CERTIFICATES=trustServerCertificate=true
