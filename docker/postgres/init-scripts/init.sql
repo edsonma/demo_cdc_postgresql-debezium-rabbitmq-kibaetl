@@ -1,4 +1,9 @@
-CREATE DATABASE source_db;
+DO $$
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_database WHERE datname = 'source_db') THEN
+    CREATE DATABASE source_db;
+  END IF;
+END $$;
 
 GRANT ALL PRIVILEGES ON DATABASE source_db TO pguser;
 

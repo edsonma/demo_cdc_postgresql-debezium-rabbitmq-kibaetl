@@ -5,8 +5,8 @@ require_relative 'kiba_source'
 require_relative 'kiba_transform'
 require_relative 'kiba_destination'
 
-bunny_adapter = BunnyAdapter.new("amqp://admin:lalala@localhost:5672/vhost")
-queue_name = 'DispatchUpdate'
+bunny_adapter = BunnyAdapter.new("amqp://mqadmin:mqadmin@localhost:5672/vhost")
+queue_name = 'DispatchChangeDataCapture'
 
 job = Kiba.parse do
   source KibaSource, bunny_adapter, queue_name
